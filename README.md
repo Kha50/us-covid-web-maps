@@ -5,10 +5,10 @@ This project consists of two interactive web maps that visualize COVID-19 impact
 
 ## Interactive Maps
 - **COVID-19 Case Rates (Choropleth Map):**  
-  [Open map1.html](map1.html)
+  [[Open map1.html](map1.html)](https://kha50.github.io/us-covid-web-maps/map1.html)
 
 - **COVID-19 Total Cases (Proportional Symbols Map):**  
-  [Open map2.html](map2.html)
+  [[Open map2.html](map2.html)](https://kha50.github.io/us-covid-web-maps/map2.html)
 
 
 ## Screenshots
