@@ -4,11 +4,12 @@
 This project consists of two interactive web maps that visualize COVID-19 impacts across U.S. counties during 2020. The goal of the project is to compare spatial patterns of COVID-19 case *rates* and *total case counts* using different thematic mapping techniques. A choropleth map is used to display COVID-19 case rates (cases per 1,000 residents), while a proportional symbol map is used to represent total confirmed COVID-19 cases by county. These complementary maps demonstrate how different cartographic techniques can reveal different aspects of the same dataset.
 
 ## Interactive Maps
-- **COVID-19 Case Rates (Choropleth Map)**  
-  https://kha50.github.io/us-covid-web-maps/map1.html
+- **COVID-19 Case Rates (Choropleth Map):**  
+  [Open map1.html](map1.html)
 
-- **COVID-19 Total Cases (Proportional Symbol Map)**  
-  https://kha50.github.io/us-covid-web-maps/map2.html
+- **COVID-19 Total Cases (Proportional Symbols Map):**  
+  [Open map2.html](map2.html)
+
 
 ## Screenshots
 *(Screenshots of each map are provided below.)*
