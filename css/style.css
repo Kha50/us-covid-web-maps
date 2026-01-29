@@ -1,0 +1,73 @@
+/* ---------- MAP CONTAINER ---------- */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* ---------- TITLE & SUBTITLE ---------- */
+#title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color: white;
+  z-index: 1;
+}
+
+#subtitle {
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+  z-index: 1;
+}
+
+#description {
+  position: absolute;
+  top: 80px;   /* below subtitle */
+  left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: white;
+  line-height: 1.4;
+  max-width: 360px;
+  z-index: 1;
+}
+
+/* ---------- LEGEND ---------- */
+#legend {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 12px;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  z-index: 1;
+  width: 180px;
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.swatch {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  border: 1px solid #999;
+}

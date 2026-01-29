@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>COVID-19 Cases (2020)</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+
+  <!-- Optional, but recommended if you used Open Sans in style.css -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <div id="title">COVID-19 Total Cases</div>
+  <div id="subtitle">US Counties (2020)</div>
+
+  <div id="description">
+  Created by: Kenneth Ha<br>
+  Map: Proportional symbols showing total COVID-19 cases by county<br>
+  Sources: The New York Times (cases), U.S. Census Bureau (counties)
+  </div>
+
+  <div id="legend"></div>
+
+  <script src="js/main2.js"></script>
+</body>
+</html>
